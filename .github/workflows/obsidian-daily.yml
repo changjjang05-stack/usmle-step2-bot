@@ -63,8 +63,11 @@ jobs:
           fi
 
       - name: Notify Telegram
-        if: ${{ success() && secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        if: ${{ success() && env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != '' }}
         run: |
-          curl -sS -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             -H "content-type: application/json" \
-            -d "{\"chat_id\":\"${{ secrets.TELEGRAM_CHAT_ID }}\",\"text\":\"오늘의 리뷰가 도착했습니다\"}"
+            -d "{\"chat_id\":\"${TELEGRAM_CHAT_ID}\",\"text\":\"오늘의 리뷰가 도착했습니다\"}"
