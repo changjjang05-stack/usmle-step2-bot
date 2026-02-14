@@ -1,0 +1,37 @@
+name: Daily Delivery
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      session:
+        description: "am or pm"
+        required: true
+        default: "am"
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Detect session from UTC
+        id: session
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "value=${{ inputs.session }}" >> "$GITHUB_OUTPUT"
+          else
+            h=$(date -u +%H)
+            if [ "$h" = "22" ]; then
+              echo "value=am" >> "$GITHUB_OUTPUT"
+            else
+              echo "value=pm" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Trigger delivery
+        run: |
+          curl -sS -X POST "${{ secrets.API_BASE_URL }}/jobs/send-session" \
+            -H "x-sync-api-key: ${{ secrets.SYNC_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"session\":\"${{ steps.session.outputs.value }}\",\"user_id\":\"default-user\"}"

@@ -1,0 +1,28 @@
+{
+  "batch": "batch_34",
+  "passed": true,
+  "input_lines": 12,
+  "output_lines": 12,
+  "checks": {
+    "line_count_match": true,
+    "key_identity_preserved": true,
+    "required_fields_present": true,
+    "nonempty_text": true,
+    "tags_min2": true,
+    "forbidden_narration_removed": true,
+    "image_markdown_removed": true,
+    "table_structure_preserved": true,
+    "llm_manual_reviewed": true,
+    "llm_line_by_line_manual_reviewed": true,
+    "review_notes_present": true,
+    "review_notes_line_complete": true,
+    "review_per_line_hashes_match": true,
+    "review_bundle_hashes_match": true,
+    "review_timing_plausible": true,
+    "review_timestamp_not_default": true
+  },
+  "reviewed_marker": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/reviewed_markers/batch_34.reviewed",
+  "line_review_marker": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/reviewed_markers/batch_34.line_review.json",
+  "review_notes_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/review_notes/batch_34.notes.jsonl",
+  "generated_at": "2026-02-14T04:01:22.206Z"
+}

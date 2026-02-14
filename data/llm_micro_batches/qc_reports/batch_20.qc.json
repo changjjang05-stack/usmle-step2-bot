@@ -1,0 +1,21 @@
+{
+  "batch": "batch_20",
+  "passed": true,
+  "input_lines": 11,
+  "output_lines": 11,
+  "checks": {
+    "line_count_match": true,
+    "key_identity_preserved": true,
+    "required_fields_present": true,
+    "nonempty_text": true,
+    "tags_min2": true,
+    "forbidden_narration_removed": true,
+    "image_markdown_removed": true,
+    "table_structure_preserved": true,
+    "llm_manual_reviewed": true,
+    "llm_line_by_line_manual_reviewed": true
+  },
+  "reviewed_marker": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/reviewed_markers/batch_20.reviewed",
+  "line_review_marker": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/reviewed_markers/batch_20.line_review.json",
+  "generated_at": "2026-02-14T03:29:02.508Z"
+}

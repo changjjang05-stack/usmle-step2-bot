@@ -1,0 +1,22 @@
+{
+  "batch": "batch_30",
+  "line_count": 9,
+  "lines_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "review_mode": "llm_manual_line_by_line",
+  "reviewed_at": "2026-02-14T03:55:39.832Z",
+  "started_at": "2026-02-14T03:42:39.833Z",
+  "finished_at": "2026-02-14T03:55:39.832Z",
+  "input_sha256": "59f42377d916d42d9bddb1dd2ab5cbfce8ec6fe0ae2a48f6137f007b22d7e51a",
+  "output_sha256": "cc340992150e23c0a2bdd39c64297e9f981249c8d9aa5b471338d54cabd18bce",
+  "notes_sha256": "82defd7ebce30ec28fce23a66d301b4d1ff13dc3eab348c88bba129e9cdd89e2"
+}

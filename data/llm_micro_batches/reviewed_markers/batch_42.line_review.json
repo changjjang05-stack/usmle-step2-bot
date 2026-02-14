@@ -1,0 +1,39 @@
+{
+  "batch": "batch_42",
+  "line_count": 18,
+  "lines_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "review_mode": "llm_manual_line_by_line",
+  "reviewed_at": "2026-02-14T07:24:00Z",
+  "started_at": "2026-02-14T07:12:00Z",
+  "finished_at": "2026-02-14T07:24:00Z",
+  "input_sha256": "af518d33cea7d320739c98ced2a2d85f60791d2872274a9fa3209959b7bff86e",
+  "output_sha256": "3bf2b415f03e8c3695162312209990922f6651f00bcfd13f8aa1cfdb73d3155f",
+  "notes_sha256": "71477acfb80fd3c74d1af988b509e0ed792fb77dee96ba47a13d2756d287a78e",
+  "qc_checklist": [
+    "all_lines_read_manually",
+    "manual_line_by_line_refinement_completed",
+    "host_dialogue_removed",
+    "meta_or_next_step_prompts_removed",
+    "medical_content_preserved",
+    "review_notes_and_hashes_updated"
+  ]
+}

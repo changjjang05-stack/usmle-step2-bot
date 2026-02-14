@@ -1,0 +1,42 @@
+{
+  "name": "usmle-step2-learning-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "node --enable-source-maps dist/server.js",
+    "build": "tsc -p tsconfig.json",
+    "import:zip": "tsx src/cli-import-zip.ts",
+    "export:draft": "tsx src/cli-export-draft.ts",
+    "import:curated": "tsx src/cli-import-curated.ts",
+    "split:draft": "tsx src/cli-split-draft.ts",
+    "validate:curated": "tsx src/cli-validate-curated.ts",
+    "pack:batches": "tsx src/cli-pack-batches.ts",
+    "merge:batches": "tsx src/cli-merge-curated-batches.ts",
+    "status:batches": "tsx src/cli-batch-status.ts",
+    "curate:content": "tsx src/cli-curate-content.ts",
+    "curate:micro": "tsx src/cli-curate-micro-batches.ts",
+    "run:session": "tsx src/cli-run-session.ts",
+    "qc:batch": "tsx src/cli-qc-batch.ts",
+    "qc:status": "tsx src/cli-qc-status.ts"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/express": "^4.17.23",
+    "@types/node": "^22.13.10",
+    "@types/nodemailer": "^6.4.17",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

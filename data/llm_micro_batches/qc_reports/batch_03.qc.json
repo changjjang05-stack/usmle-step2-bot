@@ -1,0 +1,19 @@
+{
+  "batch": "batch_03",
+  "passed": true,
+  "input_lines": 13,
+  "output_lines": 13,
+  "checks": {
+    "line_count_match": true,
+    "key_identity_preserved": true,
+    "required_fields_present": true,
+    "nonempty_text": true,
+    "tags_min2": true,
+    "forbidden_narration_removed": true,
+    "image_markdown_removed": true,
+    "table_structure_preserved": true,
+    "llm_manual_reviewed": true
+  },
+  "reviewed_marker": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/reviewed_markers/batch_03.reviewed",
+  "generated_at": "2026-02-14T02:47:28.552Z"
+}

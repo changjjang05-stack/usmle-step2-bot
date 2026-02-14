@@ -1,0 +1,64 @@
+name: Obsidian Daily Review
+
+on:
+  schedule:
+    - cron: "0 22 * * *" # 07:00 KST
+    - cron: "0 12 * * *" # 21:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Choose session (KST)
+        id: session
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then
+            echo "value=am" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 12 * * *" ]; then
+            echo "value=pm" >> "$GITHUB_OUTPUT"
+          else
+            KST_HOUR=$(TZ=Asia/Seoul date +%H)
+            if [ "$KST_HOUR" -lt 14 ]; then
+              echo "value=am" >> "$GITHUB_OUTPUT"
+            else
+              echo "value=pm" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Generate Obsidian digest
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          SYNC_API_KEY: ${{ secrets.SYNC_API_KEY }}
+          DEFAULT_USER_ID: ${{ secrets.DEFAULT_USER_ID }}
+          OBSIDIAN_VAULT_DIR: ${{ github.workspace }}/obsidian-vault
+          OBSIDIAN_DAILY_FOLDER: USMLE/Daily
+        run: npm run run:session -- ${{ steps.session.outputs.value }}
+
+      - name: Commit digest files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add obsidian-vault
+          if git diff --cached --quiet; then
+            echo "No digest changes to commit"
+          else
+            git commit -m "chore: add daily obsidian digest (${{ steps.session.outputs.value }})"
+            git push
+          fi
+

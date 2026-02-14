@@ -1,0 +1,416 @@
+[
+  {
+    "batch": "batch_01",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_01.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_01.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_01.curated.jsonl",
+    "input_lines": 18,
+    "est_input_tokens": 8269,
+    "est_output_tokens": 9510
+  },
+  {
+    "batch": "batch_02",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_02.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_02.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_02.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8997,
+    "est_output_tokens": 10347
+  },
+  {
+    "batch": "batch_03",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_03.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_03.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_03.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8520,
+    "est_output_tokens": 9798
+  },
+  {
+    "batch": "batch_04",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_04.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_04.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_04.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8770,
+    "est_output_tokens": 10086
+  },
+  {
+    "batch": "batch_05",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_05.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_05.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_05.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8414,
+    "est_output_tokens": 9677
+  },
+  {
+    "batch": "batch_06",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_06.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_06.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_06.curated.jsonl",
+    "input_lines": 9,
+    "est_input_tokens": 8395,
+    "est_output_tokens": 9655
+  },
+  {
+    "batch": "batch_07",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_07.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_07.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_07.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8964,
+    "est_output_tokens": 10309
+  },
+  {
+    "batch": "batch_08",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_08.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_08.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_08.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8524,
+    "est_output_tokens": 9803
+  },
+  {
+    "batch": "batch_09",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_09.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_09.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_09.curated.jsonl",
+    "input_lines": 18,
+    "est_input_tokens": 8999,
+    "est_output_tokens": 10349
+  },
+  {
+    "batch": "batch_10",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_10.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_10.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_10.curated.jsonl",
+    "input_lines": 15,
+    "est_input_tokens": 8257,
+    "est_output_tokens": 9496
+  },
+  {
+    "batch": "batch_11",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_11.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_11.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_11.curated.jsonl",
+    "input_lines": 14,
+    "est_input_tokens": 8876,
+    "est_output_tokens": 10208
+  },
+  {
+    "batch": "batch_12",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_12.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_12.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_12.curated.jsonl",
+    "input_lines": 15,
+    "est_input_tokens": 8757,
+    "est_output_tokens": 10071
+  },
+  {
+    "batch": "batch_13",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_13.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_13.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_13.curated.jsonl",
+    "input_lines": 14,
+    "est_input_tokens": 8765,
+    "est_output_tokens": 10080
+  },
+  {
+    "batch": "batch_14",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_14.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_14.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_14.curated.jsonl",
+    "input_lines": 14,
+    "est_input_tokens": 8956,
+    "est_output_tokens": 10300
+  },
+  {
+    "batch": "batch_15",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_15.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_15.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_15.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8512,
+    "est_output_tokens": 9789
+  },
+  {
+    "batch": "batch_16",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_16.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_16.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_16.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8781,
+    "est_output_tokens": 10099
+  },
+  {
+    "batch": "batch_17",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_17.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_17.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_17.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8846,
+    "est_output_tokens": 10173
+  },
+  {
+    "batch": "batch_18",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_18.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_18.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_18.curated.jsonl",
+    "input_lines": 10,
+    "est_input_tokens": 8771,
+    "est_output_tokens": 10087
+  },
+  {
+    "batch": "batch_19",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_19.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_19.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_19.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8805,
+    "est_output_tokens": 10126
+  },
+  {
+    "batch": "batch_20",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_20.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_20.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_20.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8227,
+    "est_output_tokens": 9462
+  },
+  {
+    "batch": "batch_21",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_21.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_21.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_21.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8720,
+    "est_output_tokens": 10028
+  },
+  {
+    "batch": "batch_22",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_22.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_22.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_22.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8062,
+    "est_output_tokens": 9272
+  },
+  {
+    "batch": "batch_23",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_23.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_23.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_23.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8303,
+    "est_output_tokens": 9549
+  },
+  {
+    "batch": "batch_24",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_24.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_24.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_24.curated.jsonl",
+    "input_lines": 14,
+    "est_input_tokens": 8849,
+    "est_output_tokens": 10177
+  },
+  {
+    "batch": "batch_25",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_25.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_25.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_25.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8677,
+    "est_output_tokens": 9979
+  },
+  {
+    "batch": "batch_26",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_26.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_26.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_26.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8363,
+    "est_output_tokens": 9618
+  },
+  {
+    "batch": "batch_27",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_27.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_27.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_27.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8530,
+    "est_output_tokens": 9810
+  },
+  {
+    "batch": "batch_28",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_28.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_28.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_28.curated.jsonl",
+    "input_lines": 10,
+    "est_input_tokens": 8253,
+    "est_output_tokens": 9491
+  },
+  {
+    "batch": "batch_29",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_29.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_29.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_29.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8589,
+    "est_output_tokens": 9878
+  },
+  {
+    "batch": "batch_30",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_30.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_30.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_30.curated.jsonl",
+    "input_lines": 9,
+    "est_input_tokens": 7974,
+    "est_output_tokens": 9171
+  },
+  {
+    "batch": "batch_31",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_31.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_31.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_31.curated.jsonl",
+    "input_lines": 10,
+    "est_input_tokens": 8123,
+    "est_output_tokens": 9342
+  },
+  {
+    "batch": "batch_32",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_32.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_32.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_32.curated.jsonl",
+    "input_lines": 13,
+    "est_input_tokens": 8958,
+    "est_output_tokens": 10302
+  },
+  {
+    "batch": "batch_33",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_33.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_33.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_33.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8340,
+    "est_output_tokens": 9591
+  },
+  {
+    "batch": "batch_34",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_34.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_34.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_34.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8869,
+    "est_output_tokens": 10200
+  },
+  {
+    "batch": "batch_35",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_35.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_35.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_35.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8899,
+    "est_output_tokens": 10234
+  },
+  {
+    "batch": "batch_36",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_36.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_36.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_36.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8903,
+    "est_output_tokens": 10239
+  },
+  {
+    "batch": "batch_37",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_37.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_37.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_37.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8701,
+    "est_output_tokens": 10007
+  },
+  {
+    "batch": "batch_38",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_38.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_38.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_38.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8520,
+    "est_output_tokens": 9798
+  },
+  {
+    "batch": "batch_39",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_39.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_39.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_39.curated.jsonl",
+    "input_lines": 11,
+    "est_input_tokens": 8781,
+    "est_output_tokens": 10099
+  },
+  {
+    "batch": "batch_40",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_40.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_40.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_40.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 8334,
+    "est_output_tokens": 9585
+  },
+  {
+    "batch": "batch_41",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_41.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_41.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_41.curated.jsonl",
+    "input_lines": 15,
+    "est_input_tokens": 8701,
+    "est_output_tokens": 10007
+  },
+  {
+    "batch": "batch_42",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_42.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_42.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_42.curated.jsonl",
+    "input_lines": 18,
+    "est_input_tokens": 8746,
+    "est_output_tokens": 10058
+  },
+  {
+    "batch": "batch_43",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_43.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_43.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_43.curated.jsonl",
+    "input_lines": 18,
+    "est_input_tokens": 8899,
+    "est_output_tokens": 10234
+  },
+  {
+    "batch": "batch_44",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_44.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_44.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_44.curated.jsonl",
+    "input_lines": 17,
+    "est_input_tokens": 8878,
+    "est_output_tokens": 10210
+  },
+  {
+    "batch": "batch_45",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_45.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_45.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_45.curated.jsonl",
+    "input_lines": 14,
+    "est_input_tokens": 8554,
+    "est_output_tokens": 9838
+  },
+  {
+    "batch": "batch_46",
+    "input_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_46.input.jsonl",
+    "prompt_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_46.prompt.txt",
+    "expected_output_path": "/Users/kimhoechang/Documents/codex/data/llm_micro_batches/batch_46.curated.jsonl",
+    "input_lines": 12,
+    "est_input_tokens": 7620,
+    "est_output_tokens": 8763
+  }
+]

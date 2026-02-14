@@ -1,0 +1,46 @@
+services:
+  - type: web
+    name: usmle-step2-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        sync: false
+      - key: SYNC_API_KEY
+        sync: false
+      - key: NOTION_TOKEN
+        sync: false
+      - key: NOTION_ROOT_PAGE_IDS
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: EMAIL_SMTP_HOST
+        sync: false
+      - key: EMAIL_SMTP_PORT
+        value: 587
+      - key: EMAIL_SMTP_USER
+        sync: false
+      - key: EMAIL_SMTP_PASS
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: EMAIL_TO
+        sync: false
+      - key: BASE_URL
+        sync: false
+      - key: GOOGLE_DRIVE_BASE_URL
+        value: https://drive.google.com/file/d
+      - key: EPISODE_HEADING_REGEX
+        value: ^episode\\b
+      - key: RECAP_HEADING_REGEX
+        value: rapid fire recap
+      - key: DEFAULT_USER_ID
+        value: default-user

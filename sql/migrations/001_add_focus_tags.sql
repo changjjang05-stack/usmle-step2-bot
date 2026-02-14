@@ -1,0 +1,6 @@
+ALTER TABLE content_chunks
+ADD COLUMN IF NOT EXISTS focus_area TEXT NOT NULL DEFAULT '';
+
+ALTER TABLE content_chunks
+ADD COLUMN IF NOT EXISTS tags TEXT[] NOT NULL DEFAULT '{}';
+

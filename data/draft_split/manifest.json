@@ -1,0 +1,207 @@
+[
+  {
+    "subject": "LM_Blood2 2fd46f2986ee8009895af4ea339219a2",
+    "rows": 36,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-blood2-2fd46f2986ee8009895af4ea339219a2.jsonl"
+  },
+  {
+    "subject": "LM_Neuro 1 30346f2986ee806abbb2fb0594cc1dd6",
+    "rows": 34,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-neuro-1-30346f2986ee806abbb2fb0594cc1dd6.jsonl"
+  },
+  {
+    "subject": "LM_GIT 1 2f746f2986ee80c5bf7bfff60573e7e3",
+    "rows": 30,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-git-1-2f746f2986ee80c5bf7bfff60573e7e3.jsonl"
+  },
+  {
+    "subject": "LM_pulmo 2f246f2986ee8075b36bd165586e44fc",
+    "rows": 29,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-pulmo-2f246f2986ee8075b36bd165586e44fc.jsonl"
+  },
+  {
+    "subject": "LM_OSRHM 30046f2986ee8098921dc4e04b63ee22",
+    "rows": 29,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-osrhm-30046f2986ee8098921dc4e04b63ee22.jsonl"
+  },
+  {
+    "subject": "LM_OSRHM 2 (7",
+    "rows": 29,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-osrhm-2-7.jsonl"
+  },
+  {
+    "subject": "LM_cardio 3 2f346f2986ee80d9a857eb6585776d49",
+    "rows": 27,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-cardio-3-2f346f2986ee80d9a857eb6585776d49.jsonl"
+  },
+  {
+    "subject": "LM_GIT3 2f946f2986ee805c848ac73de9876eba",
+    "rows": 27,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-git3-2f946f2986ee805c848ac73de9876eba.jsonl"
+  },
+  {
+    "subject": "LM_Neuro 3 30346f2986ee80f58240d21021eb2946",
+    "rows": 26,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-neuro-3-30346f2986ee80f58240d21021eb2946.jsonl"
+  },
+  {
+    "subject": "LM_neuro 4 30646f2986ee8031999be873ddb66ad3",
+    "rows": 24,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-neuro-4-30646f2986ee8031999be873ddb66ad3.jsonl"
+  },
+  {
+    "subject": "LM_obs2 2f646f2986ee80f98092f841aa85480b",
+    "rows": 23,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-obs2-2f646f2986ee80f98092f841aa85480b.jsonl"
+  },
+  {
+    "subject": "LM_GIT2 2f946f2986ee80f58743c80a29f3f081",
+    "rows": 23,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-git2-2f946f2986ee80f58743c80a29f3f081.jsonl"
+  },
+  {
+    "subject": "LM_cardio 2 5~ 2f346f2986ee8091a918d9958d59899f",
+    "rows": 22,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-cardio-2-5-2f346f2986ee8091a918d9958d59899f.jsonl"
+  },
+  {
+    "subject": "LM_ pulmo 2 2f346f2986ee80569fd8ead7ca9bcf43",
+    "rows": 21,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-pulmo-2-2f346f2986ee80569fd8ead7ca9bcf43.jsonl"
+  },
+  {
+    "subject": "LM_gyne 1 2f346f2986ee80ca9cf0e8a1de8f5e1d",
+    "rows": 21,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-gyne-1-2f346f2986ee80ca9cf0e8a1de8f5e1d.jsonl"
+  },
+  {
+    "subject": "LM_Neuro 2 30346f2986ee80b5acf3eca919a5b8c6",
+    "rows": 21,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-neuro-2-30346f2986ee80b5acf3eca919a5b8c6.jsonl"
+  },
+  {
+    "subject": "LM_endo 1 2f346f2986ee80ca9e35c9ff88472722",
+    "rows": 19,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-endo-1-2f346f2986ee80ca9e35c9ff88472722.jsonl"
+  },
+  {
+    "subject": "LM_obs1 2f646f2986ee80d3a4e8c9b5ab8a0b12",
+    "rows": 19,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-obs1-2f646f2986ee80d3a4e8c9b5ab8a0b12.jsonl"
+  },
+  {
+    "subject": "LM_cardio 1 2f346f2986ee80e3baf9e27d823f4aec",
+    "rows": 17,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-cardio-1-2f346f2986ee80e3baf9e27d823f4aec.jsonl"
+  },
+  {
+    "subject": "LM_gyne 2 2f446f2986ee8041a277d7ea0baa58c8",
+    "rows": 17,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-gyne-2-2f446f2986ee8041a277d7ea0baa58c8.jsonl"
+  },
+  {
+    "subject": "LM_endo 2 2f346f2986ee806b85b4c09245ef8c59",
+    "rows": 16,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-endo-2-2f346f2986ee806b85b4c09245ef8c59.jsonl"
+  },
+  {
+    "subject": "LM_Blood 1 2fc46f2986ee801eb24dff366f2f482f",
+    "rows": 16,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-blood-1-2fc46f2986ee801eb24dff366f2f482f.jsonl"
+  },
+  {
+    "subject": "LM_Neuro RFR 30646f2986ee8065863ccd3c7f4f2834",
+    "rows": 13,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-neuro-rfr-30646f2986ee8065863ccd3c7f4f2834.jsonl"
+  },
+  {
+    "subject": "Mnemo 2e546f2986ee8059a937d53740312b31",
+    "rows": 7,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/mnemo-2e546f2986ee8059a937d53740312b31.jsonl"
+  },
+  {
+    "subject": "LM_OSRHM RFR 30646f2986ee80c7a4f5c94edb1e6b76",
+    "rows": 7,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-osrhm-rfr-30646f2986ee80c7a4f5c94edb1e6b76.jsonl"
+  },
+  {
+    "subject": "nephro 즉반 2f046f2986ee807a8db9e274de1558fe",
+    "rows": 6,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/nephro-2f046f2986ee807a8db9e274de1558fe.jsonl"
+  },
+  {
+    "subject": "LM_obs3 2f646f2986ee80daa439daec387f9ad7",
+    "rows": 6,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/lm-obs3-2f646f2986ee80daa439daec387f9ad7.jsonl"
+  },
+  {
+    "subject": "ACS 2f546f2986ee80e28108e122ed92ca06",
+    "rows": 4,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/acs-2f546f2986ee80e28108e122ed92ca06.jsonl"
+  },
+  {
+    "subject": "Finals archive 2d146f2986ee809f85c5e7369f731832",
+    "rows": 3,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/finals-archive-2d146f2986ee809f85c5e7369f731832.jsonl"
+  },
+  {
+    "subject": "nephro 2f046f2986ee8011a1f5d23b6032fc8d",
+    "rows": 3,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/nephro-2f046f2986ee8011a1f5d23b6032fc8d.jsonl"
+  },
+  {
+    "subject": "Neurology 2d146f2986ee80f7a1a3fbf485dcaebf",
+    "rows": 2,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/neurology-2d146f2986ee80f7a1a3fbf485dcaebf.jsonl"
+  },
+  {
+    "subject": "Psy 2ea46f2986ee807ab05efc7d2a0edd28",
+    "rows": 2,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/psy-2ea46f2986ee807ab05efc7d2a0edd28.jsonl"
+  },
+  {
+    "subject": "Psy and number 2ec46f2986ee80a98293f3e61f584e06",
+    "rows": 2,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/psy-and-number-2ec46f2986ee80a98293f3e61f584e06.jsonl"
+  },
+  {
+    "subject": "Cardio 2eb46f2986ee80b9af19e02cbdc1795f",
+    "rows": 2,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/cardio-2eb46f2986ee80b9af19e02cbdc1795f.jsonl"
+  },
+  {
+    "subject": "DIP 2ec46f2986ee8056a3cedf522b3f7170",
+    "rows": 2,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/dip-2ec46f2986ee8056a3cedf522b3f7170.jsonl"
+  },
+  {
+    "subject": "immunology 30146f2986ee807c94b7e1fc0e603538",
+    "rows": 2,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/immunology-30146f2986ee807c94b7e1fc0e603538.jsonl"
+  },
+  {
+    "subject": "Hema 2e546f2986ee8016be2cdeeb27806221",
+    "rows": 1,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/hema-2e546f2986ee8016be2cdeeb27806221.jsonl"
+  },
+  {
+    "subject": "ENT 2e746f2986ee803e8769f26736748454",
+    "rows": 1,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/ent-2e746f2986ee803e8769f26736748454.jsonl"
+  },
+  {
+    "subject": "pulmo 2e746f2986ee805e834ce9e38827be43",
+    "rows": 1,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/pulmo-2e746f2986ee805e834ce9e38827be43.jsonl"
+  },
+  {
+    "subject": "UTI 치료 2ef46f2986ee8096b55ccd4f633547fb",
+    "rows": 1,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/uti-2ef46f2986ee8096b55ccd4f633547fb.jsonl"
+  },
+  {
+    "subject": "Gyne 2f646f2986ee80f8b89eef6e8dc2f9f5",
+    "rows": 1,
+    "file": "/Users/kimhoechang/Documents/codex/data/draft_split/gyne-2f646f2986ee80f8b89eef6e8dc2f9f5.jsonl"
+  }
+]
